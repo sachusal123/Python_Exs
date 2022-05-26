@@ -1,0 +1,22 @@
+<html>
+    <head>
+        <title>capslock</title>
+        <body>
+            <form>
+                <label for="tb">Enter Text</label>
+                <input  id="tb" type="text" onkeydown="caps(event)">
+            </form>
+            <script>
+                function caps()
+                {
+                var x= document.getElementById(tb)
+                var y=event.getModifierState("CapsLock");
+                if(y)
+                {
+                 alert("capslock is on")
+                }
+                }
+            </script>
+        </body>
+    </head>
+</html>
