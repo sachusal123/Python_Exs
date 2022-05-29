@@ -1,0 +1,25 @@
+.btn
+{
+ background-color: none;
+ border-radius: 3cm;
+ width: 4cm;
+ padding: 10px 20px;
+ font-size: 20px;
+ cursor: pointer;
+}
+.btn1,.btn2
+{
+ color:blueviolet;
+}
+.btn3,.btn4
+{
+ color:blueviolet;
+}
+.btn1:hover,.btn2:hover
+{
+ color:black;
+}
+.btn3:hover,.btn4:hover
+{
+color: black;
+}
